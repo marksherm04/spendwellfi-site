@@ -1,31 +1,27 @@
-<!-- App icon source for Tauri.
-     1024x1024 — feed this through Tauri's icon generator to produce every
-     platform format:
-       cd src-tauri
-       cargo tauri icon ../path/to/appicon-source.png
-     (Tauri's CLI expects a PNG, so first export this SVG to a 1024x1024 PNG
-     using Inkscape, Figma, or any vector editor.) -->
+<!-- App icon source: the Compound Spiral, 1024x1024.
+     Export to PNG then run `cargo tauri icon` to generate all platform sizes. -->
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background: soft sage gradient adds depth at app-icon size without
-       reading as a generic fintech gradient -->
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#6A9682" />
       <stop offset="100%" stop-color="#4D7A62" />
     </linearGradient>
   </defs>
-  <!-- Rounded square per platform conventions (Tauri handles the OS-specific
-       masking; this base shape works for both Windows and macOS). -->
   <rect width="1024" height="1024" rx="224" fill="url(#bg)" />
-  <!-- Subtle inner highlight ring — makes the icon feel like a real product
-       icon rather than a flat tile. -->
   <rect x="6" y="6" width="1012" height="1012" rx="220"
         fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
-  <!-- Mark, centered and proportioned for app-icon visual weight -->
-  <g fill="none" stroke="#ffffff" stroke-width="68"
+  <!-- Spiral mark scaled up - stroke widened for app-icon visual weight -->
+  <g fill="none" stroke="#ffffff" stroke-width="92"
      stroke-linecap="round" stroke-linejoin="round"
-     transform="translate(312 232) scale(10)">
-    <path d="M20 5 V35" />
-    <path d="M28 13 C28 9 24 7.5 20 7.5 C16 7.5 12 9 12 13 C12 17 17 18 20 19 C23 20 28 21 28 25 C28 29 24 32.5 20 32.5 C16 32.5 12 31 12 27" />
+     transform="translate(0 0) scale(16)">
+    <path d="M 54 32
+             C 54 19.85 44.15 10 32 10
+             C 19.85 10 10 19.85 10 32
+             C 10 42.49 18.51 51 29 51
+             C 38 51 45 44 45 35
+             C 45 27.27 38.73 21 31 21
+             C 24.93 21 20 25.93 20 32
+             C 20 36.42 23.58 40 28 40
+             C 31.31 40 34 37.31 34 34" />
   </g>
 </svg>

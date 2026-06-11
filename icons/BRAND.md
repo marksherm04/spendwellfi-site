@@ -2,12 +2,19 @@
 
 ## The mark
 
-A geometric **S** with a slim vertical stem running through it. Read primarily
-as the brand letter; on second glance the vertical stroke is the visual DNA
-of a `$` — a quiet financial signal rather than a literal one.
+**The Compound Spiral.** A geometric spiral inspired by the golden ratio.
+Compound growth — interest on interest, the foundational concept of personal
+finance — *is* exponential growth, and exponential growth drawn in 2D is a
+spiral. The mark literally embodies what the app helps you do.
 
-The IBM-stripes approach: hide the secondary meaning *inside* the primary
-form, so the brand can outgrow the category without looking like a fintech app.
+Why a spiral over a dollar sign or chart:
+- Nothing else in the personal finance category looks like this. The space
+  is full of dollar signs, piggy banks, charts, and abstract geometric blobs.
+  A spiral immediately stands apart.
+- Strong silhouette. Embroiders cleanly, prints in single color, holds up at
+  favicon size. The mark earns its place on merchandise, not just a webpage.
+- The story is a sentence. *"It's a compound spiral — money working on
+  itself."* That's a t-shirt-conversation-starter, not a forgettable mark.
 
 ## Files
 
