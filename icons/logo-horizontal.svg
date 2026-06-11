@@ -1,15 +1,19 @@
-<!-- SpendWellFi horizontal lockup: the bespoke wordmark, full width.
-     For headers, footers, open graph cards, email signatures. The standalone
-     icon mark (mark.svg / favicon.svg) handles spaces where the wordmark
-     can't go. -->
+<!-- SpendWellFi horizontal lockup: slot-coin mark + bespoke wordmark. -->
 <svg viewBox="0 0 380 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SpendWellFi">
-  <text x="6" y="60"
+  <!-- The slot coin -->
+  <g transform="translate(8 8)">
+    <path fill="#5B8A72" fill-rule="evenodd"
+          d="M 32 2 a 30 30 0 1 0 0 60 a 30 30 0 1 0 0 -60 z
+             M 18 29 h 28 a 3 3 0 0 1 0 6 h -28 a 3 3 0 0 1 0 -6 z" />
+  </g>
+  <!-- Wordmark -->
+  <text x="84" y="56"
         font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif"
-        font-size="56" font-weight="800" letter-spacing="-2.4"
+        font-size="48" font-weight="800" letter-spacing="-2"
         fill="#1c1917">SpendWell</text>
-  <circle cx="278" cy="44" r="10" fill="#5B8A72" />
-  <text x="298" y="60"
+  <circle cx="316" cy="44" r="8" fill="#5B8A72" />
+  <text x="332" y="56"
         font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif"
-        font-size="56" font-weight="800" letter-spacing="-2.4"
+        font-size="48" font-weight="800" letter-spacing="-2"
         fill="#1c1917">Fi</text>
 </svg>

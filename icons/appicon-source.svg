@@ -1,6 +1,5 @@
-<!-- App icon source: the coin mark at 1024x1024.
-     Export to PNG, then `cargo tauri icon` from src-tauri/ to generate
-     every Windows and macOS size. -->
+<!-- App icon source: slot-coin, 1024x1024.
+     Export to PNG and run `cargo tauri icon` from src-tauri/. -->
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
@@ -11,16 +10,8 @@
   <rect width="1024" height="1024" rx="224" fill="url(#bg)" />
   <rect x="6" y="6" width="1012" height="1012" rx="220"
         fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
-  <!-- The S, sized for app-icon visual weight -->
-  <g transform="translate(0 0) scale(16)">
-    <path d="M 44 23
-             C 44 18.5 39 15.5 32 15.5
-             C 25 15.5 20 18.5 20 23
-             C 20 28 27 29 32 30.5
-             C 37 32 44 33 44 38.5
-             C 44 43 39 46 32 46
-             C 25 46 20 43 20 38.5"
-          fill="none" stroke="#ffffff" stroke-width="5"
-          stroke-linecap="round" stroke-linejoin="round" />
-  </g>
+  <!-- Slot coin, white on the gradient tile -->
+  <path fill="#ffffff" fill-rule="evenodd"
+        d="M 512 224 a 288 288 0 1 0 0 576 a 288 288 0 1 0 0 -576 z
+           M 384 480 h 256 a 32 32 0 0 1 0 64 h -256 a 32 32 0 0 1 0 -64 z" />
 </svg>
