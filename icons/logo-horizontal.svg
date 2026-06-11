@@ -1,19 +1,18 @@
-<!-- SpendWellFi horizontal lockup: slot-coin mark + bespoke wordmark. -->
+<!-- SpendWellFi horizontal lockup: house+vault mark + wordmark with mint Fi. -->
 <svg viewBox="0 0 380 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SpendWellFi">
-  <!-- The slot coin -->
-  <g transform="translate(8 8)">
-    <path fill="#5B8A72" fill-rule="evenodd"
-          d="M 32 2 a 30 30 0 1 0 0 60 a 30 30 0 1 0 0 -60 z
-             M 18 29 h 28 a 3 3 0 0 1 0 6 h -28 a 3 3 0 0 1 0 -6 z" />
+  <g transform="translate(6 8)">
+    <rect width="64" height="64" rx="14" fill="#2D5C42" />
+    <path fill="#ffffff" d="M 32 9 L 53 26 L 53 55 L 11 55 L 11 26 Z" />
+    <rect x="26" y="34" width="12" height="21" rx="2" fill="#7BC5A0" />
+    <circle cx="33" cy="40" r="1.6" fill="#2D5C42" />
   </g>
-  <!-- Wordmark -->
-  <text x="84" y="56"
+  <text x="86" y="56"
         font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif"
         font-size="48" font-weight="800" letter-spacing="-2"
         fill="#1c1917">SpendWell</text>
-  <circle cx="316" cy="44" r="8" fill="#5B8A72" />
+  <circle cx="318" cy="44" r="7" fill="#7BC5A0" />
   <text x="332" y="56"
         font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif"
-        font-size="48" font-weight="800" letter-spacing="-2"
-        fill="#1c1917">Fi</text>
+        font-size="48" font-weight="700" letter-spacing="-2"
+        fill="#7BC5A0">Fi</text>
 </svg>

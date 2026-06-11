@@ -1,0 +1,22 @@
+<!-- SpendWellFi stacked lockup: hero/marketing version. Mark on left,
+     SpendWell/Fi stacked on right with PRIVATE & LOCAL tagline below. -->
+<svg viewBox="0 0 320 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SpendWellFi">
+  <g transform="translate(10 28)">
+    <rect width="104" height="104" rx="22" fill="#2D5C42" />
+    <path fill="#ffffff" d="M 52 14 L 87 42 L 87 90 L 17 90 L 17 42 Z" />
+    <rect x="42" y="56" width="20" height="34" rx="3" fill="#7BC5A0" />
+    <circle cx="54" cy="66" r="2.5" fill="#2D5C42" />
+  </g>
+  <text x="134" y="68"
+        font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif"
+        font-size="44" font-weight="800" letter-spacing="-2"
+        fill="#1c1917">SpendWell</text>
+  <text x="134" y="112"
+        font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif"
+        font-size="44" font-weight="700" letter-spacing="-2"
+        fill="#7BC5A0">Fi</text>
+  <text x="136" y="138"
+        font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif"
+        font-size="11" font-weight="700" letter-spacing="3"
+        fill="#5B6B62">PRIVATE &#183; LOCAL</text>
+</svg>

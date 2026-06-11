@@ -1,17 +1,19 @@
-<!-- App icon source: slot-coin, 1024x1024.
+<!-- App icon source: house+vault, 1024x1024.
      Export to PNG and run `cargo tauri icon` from src-tauri/. -->
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#6A9682" />
-      <stop offset="100%" stop-color="#4D7A62" />
+      <stop offset="0%" stop-color="#3A7253" />
+      <stop offset="100%" stop-color="#234A35" />
     </linearGradient>
   </defs>
   <rect width="1024" height="1024" rx="224" fill="url(#bg)" />
   <rect x="6" y="6" width="1012" height="1012" rx="220"
         fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
-  <!-- Slot coin, white on the gradient tile -->
-  <path fill="#ffffff" fill-rule="evenodd"
-        d="M 512 224 a 288 288 0 1 0 0 576 a 288 288 0 1 0 0 -576 z
-           M 384 480 h 256 a 32 32 0 0 1 0 64 h -256 a 32 32 0 0 1 0 -64 z" />
+  <!-- House -->
+  <path fill="#ffffff" d="M 512 168 L 848 440 L 848 880 L 176 880 L 176 440 Z" />
+  <!-- Vault door -->
+  <rect x="416" y="552" width="192" height="328" rx="22" fill="#7BC5A0" />
+  <!-- Vault dial -->
+  <circle cx="528" cy="640" r="22" fill="#2D5C42" />
 </svg>
