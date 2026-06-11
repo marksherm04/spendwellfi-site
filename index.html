@@ -33,11 +33,12 @@
   <header class="hero">
     <div class="container">
       <p class="eyebrow">Local · encrypted · no accounts, no cloud</p>
-      <h1>Track every dollar without<br />handing it to a stranger.</h1>
+      <h1>The full-featured finance app<br />that never sees your data.</h1>
       <p class="lede">
-        SpendWellFi runs on your computer. You feed it bank statements you
-        already download. It does the categorizing, budgeting, net-worth
-        tracking, and retirement math — and that work never leaves your machine.
+        Imported statements, categorization, budgets, net worth, retirement
+        projections, household sync — all the tools the big finance apps
+        sell, all running on your computer. Nothing uploaded, no bank
+        login required, no subscription.
       </p>
       <div class="hero-actions">
         <a class="btn btn-primary btn-big" href="#pricing">Get SpendWellFi — $49</a>
@@ -47,31 +48,37 @@
     </div>
   </header>
 
-  <!-- ── Why I built it (personal voice) ─────────────────────────── -->
+  <!-- ── How it works (replaces personal voice) ──────────────────── -->
   <section id="why" class="band">
     <div class="container narrow why-block">
-      <h2>Why I built this</h2>
+      <h2>A different deal with your data</h2>
       <p>
-        I'm Mark. I'm a software engineer, and a few years ago I got tired of
-        watching the personal finance apps I used quietly change the deal.
-        One started selling "anonymized" data. Another switched the features
-        I actually used behind a subscription. A third was breached and
-        emailed me an apology for the trouble.
+        Most finance apps work by holding your bank credentials and copying
+        every transaction to their servers. That copy is what gets analyzed,
+        sold, breached, or fed to AI training. SpendWellFi inverts the model:
+        you keep the data, and the app comes to you.
       </p>
-      <p>
-        The pattern was always the same: I'd handed over my bank login, and
-        whoever owned the app owned a copy of my financial life. I wanted a
-        tool that worked the other way around. So I built SpendWellFi for
-        my household, and now I sell it to anyone who wants the same deal.
+      <div class="howit">
+        <div class="howit-step">
+          <div class="howit-num">01</div>
+          <h3>You export, the app imports.</h3>
+          <p>Download PDF or CSV statements from your bank's website — the same files you can already get. Drop them into SpendWellFi. The parser runs on your CPU.</p>
+        </div>
+        <div class="howit-step">
+          <div class="howit-num">02</div>
+          <h3>Your computer does the work.</h3>
+          <p>Categorization, deduplication, recurring-charge detection, budget pacing, net worth, retirement projections — all computed locally against your SQLite database file.</p>
+        </div>
+        <div class="howit-step">
+          <div class="howit-num">03</div>
+          <h3>Your network shares it.</h3>
+          <p>Want your partner or family to see things? Sync runs device-to-device across your own Wi-Fi with end-to-end encryption. No SpendWellFi server in the path.</p>
+        </div>
+      </div>
+      <p class="howit-note">
+        Built by Sherman Solutions LLC, an Indiana-registered software studio
+        founded on the principle that personal finance data should stay personal.
       </p>
-      <p>
-        You download statements yourself. The app reads them on your computer.
-        Backups are encrypted. If you want to share with a partner, that
-        happens device-to-device across your own Wi-Fi. There's nothing
-        plugged into your bank, no copy of your data on any of my servers,
-        no account to lock you out of.
-      </p>
-      <p class="why-sign">— Mark Sherman, Sherman Solutions LLC</p>
     </div>
   </section>
 

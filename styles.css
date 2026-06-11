@@ -159,15 +159,39 @@ details p { color: var(--ink-soft); font-size: 14.5px; margin: 12px 0 2px; }
   padding: 14px 18px; font-size: 14px; color: #92400e; margin-top: 20px;
 }
 
-/* ── Why I built it ──────────────────────────────────────── */
-.why-block h2 { font-size: 28px; letter-spacing: -0.02em; margin: 0 0 24px; }
-.why-block p {
-  font-size: 17px; color: var(--ink); line-height: 1.75;
-  margin: 0 0 18px;
+/* ── How it works ────────────────────────────────────────── */
+.why-block h2 { font-size: 28px; letter-spacing: -0.02em; margin: 0 0 18px; }
+.why-block > p {
+  font-size: 17px; color: var(--ink); line-height: 1.7;
+  margin: 0 0 32px;
 }
-.why-sign {
-  font-size: 14.5px !important; color: var(--ink-mute) !important;
-  font-style: italic; margin-top: 20px !important;
+.howit { display: grid; gap: 18px; margin: 0 0 24px; }
+.howit-step {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 14px; padding: 22px 26px;
+  display: grid; grid-template-columns: 60px 1fr; gap: 14px;
+  align-items: start;
+}
+.howit-num {
+  font-size: 22px; font-weight: 800; letter-spacing: -0.02em;
+  color: var(--accent); font-variant-numeric: tabular-nums;
+  padding-top: 2px;
+}
+.howit-step h3 {
+  font-size: 17px; margin: 0 0 6px; letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.howit-step p {
+  font-size: 14.5px !important; color: var(--ink-soft) !important;
+  margin: 0 !important; line-height: 1.6;
+}
+.howit-note {
+  font-size: 13.5px !important; color: var(--ink-mute) !important;
+  margin: 24px 0 0 !important; text-align: center; line-height: 1.6;
+}
+@media (max-width: 560px) {
+  .howit-step { grid-template-columns: 1fr; gap: 4px; padding: 18px 20px; }
+  .howit-num { font-size: 18px; }
 }
 
 /* ── Spotlights ──────────────────────────────────────────── */
