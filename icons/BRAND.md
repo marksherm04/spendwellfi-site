@@ -1,20 +1,38 @@
 # SpendWellFi brand system
 
-## The mark
+## The brand identity
 
-**The Compound Spiral.** A geometric spiral inspired by the golden ratio.
-Compound growth — interest on interest, the foundational concept of personal
-finance — *is* exponential growth, and exponential growth drawn in 2D is a
-spiral. The mark literally embodies what the app helps you do.
+**Bespoke wordmark + coin mark.** Two pieces that share one signature element.
 
-Why a spiral over a dollar sign or chart:
-- Nothing else in the personal finance category looks like this. The space
-  is full of dollar signs, piggy banks, charts, and abstract geometric blobs.
-  A spiral immediately stands apart.
-- Strong silhouette. Embroiders cleanly, prints in single color, holds up at
-  favicon size. The mark earns its place on merchandise, not just a webpage.
-- The story is a sentence. *"It's a compound spiral — money working on
-  itself."* That's a t-shirt-conversation-starter, not a forgettable mark.
+The **wordmark** is `SpendWell·Fi` — the brand name set in heavy Plus Jakarta
+Sans 800 with the middle joined by a sage-green dot. That dot is the brand's
+singular visual element: it acts as punctuation in the wordmark (separating
+the action *Spend Well* from the financial designation *Fi*) and as the
+source from which the standalone icon mark is built.
+
+The **coin mark** is the sage dot scaled up to circle size, carrying a bold
+white `S` inside. It's what goes anywhere the full wordmark can't — favicon,
+app icon, small UI badges.
+
+Why bespoke wordmark over a symbolic icon:
+- The wordmark *is* the merchandise. Patagonia, Supreme, Stüssy, Carhartt:
+  the strongest small brands are recognized by their wordmark, not a separate
+  icon. A heavy custom-set "SpendWell·Fi" embroidered on a hat front carries
+  the brand the way no spiral or letterform could.
+- One memorable element. The sage dot/coin is what repetition trains into
+  visual recognition. The same element appears in every brand surface.
+- The icon problem solves itself. When someone needs an icon-only version,
+  the dot scales up into the coin mark. No second design system to maintain,
+  no semantic compromise.
+
+## Brand name in copy
+
+The wordmark style (`SpendWell·Fi` with sage dot) is the visual identity —
+used for logos, headers, footers, merchandise.
+
+In running copy, page titles, button text, and email subject lines, write
+the brand as one word: **SpendWellFi**. Patagonia uses its custom wordmark
+on shirts and writes "Patagonia" in body text. Same idea here.
 
 ## Files
 

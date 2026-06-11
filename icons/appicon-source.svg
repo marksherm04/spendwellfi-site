@@ -1,5 +1,6 @@
-<!-- App icon source: the Compound Spiral, 1024x1024.
-     Export to PNG then run `cargo tauri icon` to generate all platform sizes. -->
+<!-- App icon source: the coin mark at 1024x1024.
+     Export to PNG, then `cargo tauri icon` from src-tauri/ to generate
+     every Windows and macOS size. -->
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
@@ -10,18 +11,16 @@
   <rect width="1024" height="1024" rx="224" fill="url(#bg)" />
   <rect x="6" y="6" width="1012" height="1012" rx="220"
         fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
-  <!-- Spiral mark scaled up - stroke widened for app-icon visual weight -->
-  <g fill="none" stroke="#ffffff" stroke-width="92"
-     stroke-linecap="round" stroke-linejoin="round"
-     transform="translate(0 0) scale(16)">
-    <path d="M 54 32
-             C 54 19.85 44.15 10 32 10
-             C 19.85 10 10 19.85 10 32
-             C 10 42.49 18.51 51 29 51
-             C 38 51 45 44 45 35
-             C 45 27.27 38.73 21 31 21
-             C 24.93 21 20 25.93 20 32
-             C 20 36.42 23.58 40 28 40
-             C 31.31 40 34 37.31 34 34" />
+  <!-- The S, sized for app-icon visual weight -->
+  <g transform="translate(0 0) scale(16)">
+    <path d="M 44 23
+             C 44 18.5 39 15.5 32 15.5
+             C 25 15.5 20 18.5 20 23
+             C 20 28 27 29 32 30.5
+             C 37 32 44 33 44 38.5
+             C 44 43 39 46 32 46
+             C 25 46 20 43 20 38.5"
+          fill="none" stroke="#ffffff" stroke-width="5"
+          stroke-linecap="round" stroke-linejoin="round" />
   </g>
 </svg>

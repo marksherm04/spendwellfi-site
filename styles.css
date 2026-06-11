@@ -38,7 +38,10 @@ body {
   border-bottom: 1px solid var(--border);
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-.brand { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 18px; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 18px; letter-spacing: -0.025em; color: var(--ink); text-decoration: none; }
+.brand .dot { color: var(--accent); margin: 0 1px; font-weight: 800; }
+.brand-mark { background: transparent; }
+.brand-mark svg { width: 30px; height: 30px; }
 .brand-mark {
   display: inline-flex; align-items: center; justify-content: center;
   width: 32px; height: 32px; border-radius: 9px;
