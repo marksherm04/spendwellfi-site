@@ -26,9 +26,10 @@
 
     <h2>The application</h2>
     <ul>
-      <li>All financial data you import — statements, transactions, balances, budgets, goals — is stored in a database file on your own computer and is processed entirely on your computer.</li>
-      <li>The application sends no financial data, usage analytics, telemetry, crash reports, or identifiers of any kind to us or to anyone else.</li>
-      <li>The optional partner-sync feature transfers data directly between your own devices over your local network, end-to-end encrypted. It does not pass through any server of ours.</li>
+      <li><strong>Stored locally.</strong> All financial data you import — statements, transactions, balances, budgets, goals — is stored in a single database file on your own computer and is processed entirely on your computer.</li>
+      <li><strong>Encryption.</strong> Local backups and exported sync files are encrypted with AES-256-GCM using a key derived from your password via Argon2id — the same encryption standards used for protecting classified information. Without your password, the contents cannot be read.</li>
+      <li><strong>Household sharing.</strong> The optional partner/family sync feature transfers data directly between your own devices over your local Wi-Fi network using end-to-end encryption (X25519 key exchange and AES-256-GCM). Nothing passes through any server of ours.</li>
+      <li><strong>No telemetry.</strong> The application sends no financial data, usage analytics, crash reports, or identifiers of any kind to us or to anyone else.</li>
       <li>The optional update check contacts our update server only to compare version numbers; it transmits no personal or financial information.</li>
       <li>We have no technical ability to access, recover, or delete your financial data — we never possess it.</li>
     </ul>
