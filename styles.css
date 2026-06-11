@@ -41,6 +41,9 @@ body {
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 18px; letter-spacing: -0.025em; color: #2D5C42; text-decoration: none; }
 .brand .dot { color: #7BC5A0; margin: 0 1px; font-weight: 800; }
 .brand .wordmark .fi { color: #7BC5A0; font-weight: 700; font-style: italic; }
+.brand .wordmark-group { display: inline-flex; flex-direction: column; line-height: 1.05; }
+.brand .wordmark { display: block; }
+.brand .tagline { font-size: 9px; font-weight: 700; letter-spacing: 2.6px; color: #5B6B62; margin-top: 2px; }
 .brand-mark { background: transparent; }
 .brand-mark svg { width: 34px; height: 34px; display: block; }
 .brand-mark {
