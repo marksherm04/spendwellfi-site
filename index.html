@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="icons/favicon.svg" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -16,7 +17,12 @@
   <nav class="nav">
     <div class="container nav-inner">
       <a href="/" class="brand">
-        <span class="brand-mark">↗</span>
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M20 5 V35" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" />
+            <path d="M28 13 C28 9 24 7.5 20 7.5 C16 7.5 12 9 12 13 C12 17 17 18 20 19 C23 20 28 21 28 25 C28 29 24 32.5 20 32.5 C16 32.5 12 31 12 27" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </span>
         <span>SpendWellFi</span>
       </a>
       <div class="nav-links">

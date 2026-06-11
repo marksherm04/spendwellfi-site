@@ -1,0 +1,15 @@
+<!-- SpendWellFi horizontal lockup: mark + wordmark.
+     For use in headers, footers, open graph cards, and email signatures. -->
+<svg viewBox="0 0 320 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SpendWellFi">
+  <!-- Mark on rounded sage square -->
+  <rect width="64" height="64" rx="14" fill="#5B8A72" />
+  <g fill="none" stroke="#ffffff" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(12 12)">
+    <path d="M20 5 V35" />
+    <path d="M28 13 C28 9 24 7.5 20 7.5 C16 7.5 12 9 12 13 C12 17 17 18 20 19 C23 20 28 21 28 25 C28 29 24 32.5 20 32.5 C16 32.5 12 31 12 27" />
+  </g>
+  <!-- Wordmark: tightly-set, dark on cream -->
+  <text x="82" y="42"
+        font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif"
+        font-size="30" font-weight="800" letter-spacing="-0.6"
+        fill="#1c1917">SpendWellFi</text>
+</svg>
