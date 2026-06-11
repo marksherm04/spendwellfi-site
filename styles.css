@@ -38,7 +38,7 @@ body {
   border-bottom: 1px solid var(--border);
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-.brand { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 18px; letter-spacing: -0.02em; }
+.brand { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 18px; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
 .brand-mark {
   display: inline-flex; align-items: center; justify-content: center;
   width: 30px; height: 30px; border-radius: 9px;
@@ -61,7 +61,7 @@ body {
 .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(91, 138, 114, 0.34); }
 .btn-ghost { color: var(--accent-deep); border: 1.5px solid var(--border); background: var(--surface); }
 .btn-ghost:hover { border-color: var(--accent); }
-.btn-small { background: var(--accent); color: #fff !important; padding: 8px 16px; font-size: 13px; border-radius: 9px; }
+.btn-small { padding: 9px 18px; font-size: 13.5px; border-radius: 9px; }
 .btn-big { padding: 16px 40px; font-size: 17px; }
 
 /* ── Hero ────────────────────────────────────────────── */
@@ -159,7 +159,114 @@ details p { color: var(--ink-soft); font-size: 14.5px; margin: 12px 0 2px; }
   padding: 14px 18px; font-size: 14px; color: #92400e; margin-top: 20px;
 }
 
+/* ── Why I built it ──────────────────────────────────────── */
+.why-block h2 { font-size: 28px; letter-spacing: -0.02em; margin: 0 0 24px; }
+.why-block p {
+  font-size: 17px; color: var(--ink); line-height: 1.75;
+  margin: 0 0 18px;
+}
+.why-sign {
+  font-size: 14.5px !important; color: var(--ink-mute) !important;
+  font-style: italic; margin-top: 20px !important;
+}
+
+/* ── Spotlights ──────────────────────────────────────────── */
+.spotlight {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 18px; padding: 36px 40px; margin-bottom: 18px;
+  box-shadow: 0 1px 3px rgba(28, 25, 23, 0.04);
+}
+.spotlight-alt {
+  background: var(--accent-light); border-color: rgba(91, 138, 114, 0.2);
+}
+.spotlight-tag {
+  display: inline-block; font-size: 11.5px; font-weight: 700;
+  letter-spacing: 0.07em; text-transform: uppercase;
+  color: var(--accent-deep); margin-bottom: 12px;
+}
+.spotlight h3 {
+  font-size: 24px; letter-spacing: -0.02em; line-height: 1.25;
+  margin: 0 0 14px; color: var(--ink);
+}
+.spotlight p {
+  font-size: 16px; color: var(--ink-soft); line-height: 1.7;
+  margin: 0; max-width: 640px;
+}
+
+/* ── And-also chip list ──────────────────────────────────── */
+.and-also {
+  font-size: 13px; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-mute);
+  margin: 56px 0 18px; text-align: center;
+}
+.chip-list {
+  list-style: none; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 8px;
+  justify-content: center;
+}
+.chip-list li {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 99px; padding: 8px 16px;
+  font-size: 13.5px; color: var(--ink-soft);
+}
+
+/* ── Three-column promise row ────────────────────────────── */
+.promise-row {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;
+  margin-top: 28px;
+}
+.promise-item h3 {
+  font-size: 18px; color: #fff; margin: 12px 0 8px;
+  letter-spacing: -0.01em;
+}
+.promise-item p {
+  font-size: 14.5px; color: rgba(255, 255, 255, 0.78);
+  line-height: 1.65; margin: 0;
+}
+.promise-num {
+  font-size: 13px; font-weight: 800; letter-spacing: 0.1em;
+  color: #9fd4b8; opacity: 0.85;
+}
+
+/* ── Final buy band ──────────────────────────────────────── */
+.final-buy {
+  text-align: center; padding: 80px 24px; background: var(--bg);
+  border-top: 1px solid var(--border);
+}
+.final-buy h2 {
+  font-size: 36px; letter-spacing: -0.03em; margin: 0 0 10px;
+}
+.final-buy p {
+  font-size: 17px; color: var(--ink-soft); margin: 0 0 28px;
+}
+
+/* ── Floating buy button (anti-AI tell: persistent CTA) ──── */
+.float-buy {
+  position: fixed; bottom: 24px; right: 24px; z-index: 90;
+  padding: 13px 22px; border-radius: 99px;
+  background: var(--accent-deep); color: #fff;
+  font-weight: 700; font-size: 14.5px; text-decoration: none;
+  box-shadow: 0 8px 22px rgba(47, 92, 66, 0.32);
+  opacity: 0; transform: translateY(20px) scale(0.95);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.float-buy.show {
+  opacity: 1; transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+.float-buy:hover { background: var(--accent); }
+
+@media (max-width: 760px) {
+  .promise-row { grid-template-columns: 1fr; gap: 24px; }
+  .spotlight { padding: 28px 24px; }
+  .spotlight h3 { font-size: 20px; }
+  .final-buy h2 { font-size: 28px; }
+}
+
 @media (max-width: 640px) {
   .nav-links a:not(.btn) { display: none; }
+  .nav-links { gap: 0; }
   .hero { padding: 64px 0 56px; }
+  .float-buy { bottom: 16px; right: 16px; padding: 11px 18px; font-size: 13px; }
 }

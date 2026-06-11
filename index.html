@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SpendWellFi — Private, offline personal finance</title>
-  <meta name="description" content="A personal finance app that never sees your data. Import bank statements, track spending, budgets, and net worth — everything stays on your computer." />
+  <title>SpendWellFi — Personal finance that stays on your computer</title>
+  <meta name="description" content="The privacy-first finance app. Import bank statements, track spending, plan retirement. Everything runs on your machine, encrypted." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -15,16 +15,16 @@
   <!-- ── Nav ─────────────────────────────────────────────────────── -->
   <nav class="nav">
     <div class="container nav-inner">
-      <div class="brand">
+      <a href="/" class="brand">
         <span class="brand-mark">↗</span>
         <span>SpendWellFi</span>
-      </div>
+      </a>
       <div class="nav-links">
-        <a href="#features">Features</a>
-        <a href="#privacy">Privacy</a>
+        <a href="#why">Why</a>
+        <a href="#what">What it does</a>
         <a href="#pricing">Pricing</a>
         <a href="#faq">FAQ</a>
-        <a class="btn btn-small" href="#pricing">Buy now</a>
+        <a class="btn btn-primary btn-small" href="#pricing">Get SpendWellFi · $49</a>
       </div>
     </div>
   </nav>
@@ -32,115 +32,149 @@
   <!-- ── Hero ────────────────────────────────────────────────────── -->
   <header class="hero">
     <div class="container">
-      <p class="eyebrow">Local · encrypted · yours to share</p>
-      <h1>Your finances.<br /><em>Actually</em> yours.</h1>
+      <p class="eyebrow">Local · encrypted · no accounts, no cloud</p>
+      <h1>Track every dollar without<br />handing it to a stranger.</h1>
       <p class="lede">
-        SpendWellFi runs entirely on your computer. Drop in your bank statements
-        — it categorizes everything, tracks your spending, budgets, and net worth.
-        Your data stays on your machine, protected by bank-grade encryption,
-        and syncs with your partner or family over your own Wi-Fi.
+        SpendWellFi runs on your computer. You feed it bank statements you
+        already download. It does the categorizing, budgeting, net-worth
+        tracking, and retirement math — and that work never leaves your machine.
       </p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="#pricing">Buy SpendWellFi</a>
-        <a class="btn btn-ghost" href="#features">See what it does</a>
+        <a class="btn btn-primary btn-big" href="#pricing">Get SpendWellFi — $49</a>
+        <a class="btn btn-ghost" href="#what">First, show me what it does</a>
       </div>
-      <p class="hero-note">One-time purchase · Windows &amp; macOS · Your data never leaves your machine</p>
+      <p class="hero-note">One purchase, yours to keep. Windows and macOS. 14-day refund if it isn't for you.</p>
     </div>
   </header>
 
-  <!-- ── The problem ─────────────────────────────────────────────── -->
-  <section class="band">
-    <div class="container narrow">
-      <h2>Every other finance app wants your bank login.</h2>
+  <!-- ── Why I built it (personal voice) ─────────────────────────── -->
+  <section id="why" class="band">
+    <div class="container narrow why-block">
+      <h2>Why I built this</h2>
       <p>
-        Cloud budgeting apps connect to your bank, pull every transaction you've ever made,
-        and store it on their servers — where it gets analyzed, monetized, breached, or all three.
-        SpendWellFi takes the opposite approach: <strong>you download your own statements,
-        and the app does everything locally.</strong> No credentials to hand over. No servers to trust.
-        Nothing to leak.
+        I'm Mark. I'm a software engineer, and a few years ago I got tired of
+        watching the personal finance apps I used quietly change the deal.
+        One started selling "anonymized" data. Another switched the features
+        I actually used behind a subscription. A third was breached and
+        emailed me an apology for the trouble.
       </p>
+      <p>
+        The pattern was always the same: I'd handed over my bank login, and
+        whoever owned the app owned a copy of my financial life. I wanted a
+        tool that worked the other way around. So I built SpendWellFi for
+        my household, and now I sell it to anyone who wants the same deal.
+      </p>
+      <p>
+        You download statements yourself. The app reads them on your computer.
+        Backups are encrypted. If you want to share with a partner, that
+        happens device-to-device across your own Wi-Fi. There's nothing
+        plugged into your bank, no copy of your data on any of my servers,
+        no account to lock you out of.
+      </p>
+      <p class="why-sign">— Mark Sherman, Sherman Solutions LLC</p>
     </div>
   </section>
 
-  <!-- ── Features ────────────────────────────────────────────────── -->
-  <section id="features" class="section">
+  <!-- ── What it does (spotlights, not a sterile grid) ──────────── -->
+  <section id="what" class="section">
     <div class="container">
-      <h2 class="section-title">Everything a money app should do — offline</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>📄 Statement import that just works</h3>
-          <p>Drop in PDF or CSV statements from Chase, PNC, Bank of America, Wells Fargo, Amex, Discover, Betterment, and more. Transactions are extracted, categorized, and deduplicated automatically.</p>
-        </div>
-        <div class="card">
-          <h3>💵 Safe to Spend</h3>
-          <p>The number you actually want every morning: checking balance minus the bills due before your next paycheck. Know what's really spendable.</p>
-        </div>
-        <div class="card">
-          <h3>🎯 Budgets with pacing</h3>
-          <p>Targets per category, with a marker showing where you <em>should</em> be by today's date — so an overheating budget is visible mid-month, not at the funeral.</p>
-        </div>
-        <div class="card">
-          <h3>🧾 Subscription audit</h3>
-          <p>What your recurring charges really cost per month and year, every price hike since you subscribed, and the subscriptions you might have forgotten about.</p>
-        </div>
-        <div class="card">
-          <h3>📈 Net worth &amp; retirement</h3>
-          <p>Balances update from your statement imports automatically. Project retirement honestly — with the actual historical range of market returns, not a single promised line.</p>
-        </div>
-        <div class="card">
-          <h3>💳 Card rewards optimizer</h3>
-          <p>Twenty built-in card reward profiles. See which card you should have used for every purchase, and what the wrong choice cost you.</p>
-        </div>
-        <div class="card">
-          <h3>⚖️ Spending priorities</h3>
-          <p>Sort categories into Love It / It's Fine / Could Cut Back — then watch whether the cut-back ones actually come down.</p>
-        </div>
-        <div class="card">
-          <h3>👫 Share with your household</h3>
-          <p>Sync with your partner or family across your own Wi-Fi network — end-to-end encrypted, device-to-device, no cloud middleman. Mark accounts private so others see category totals, not individual transactions.</p>
-        </div>
-        <div class="card">
-          <h3>🔎 Fast everywhere</h3>
-          <p>Ctrl+K search across everything, keyboard-driven review, cash-flow diagrams, spending heatmaps. Local data means nothing ever spins.</p>
-        </div>
+      <h2 class="section-title">What you actually get</h2>
+
+      <div class="spotlight">
+        <div class="spotlight-tag">The daily question</div>
+        <h3>Safe to Spend tells you what's really yours today.</h3>
+        <p>
+          Your checking balance minus the bills due before your next paycheck.
+          It uses the recurring charges the app already found in your imports
+          and the income cadence it learned from your statements. One number,
+          updated every time you import. No more head-math at the coffee shop.
+        </p>
       </div>
+
+      <div class="spotlight spotlight-alt">
+        <div class="spotlight-tag">The flagship view</div>
+        <h3>Budgets that warn you on the way down, not after.</h3>
+        <p>
+          Set a monthly target on any category. Each bar fills as you spend,
+          and a tick mark shows where you'd be if your pace were even.
+          If dining is at 80% on the 10th, you can see it — instead of
+          finding out the 31st. Drag the tick across the bar; that's pacing
+          most apps still don't show.
+        </p>
+      </div>
+
+      <div class="spotlight">
+        <div class="spotlight-tag">The thing other apps don't say</div>
+        <h3>Subscription audit, including the price hikes.</h3>
+        <p>
+          The app remembers the first price Netflix charged you. When it
+          changed, by how much, and on what date. It surfaces the
+          subscriptions whose charges quietly stopped arriving (still active?
+          renewed?). Real numbers about what your recurring life actually costs.
+        </p>
+      </div>
+
+      <h3 class="and-also">And, also</h3>
+      <ul class="chip-list">
+        <li>PDF and CSV import for Chase, PNC, BofA, Wells Fargo, Amex, Discover, Betterment, and dozens more</li>
+        <li>Cash-flow Sankey showing where every dollar went</li>
+        <li>Spending calendar (the month as a heatmap)</li>
+        <li>Net worth with assets above zero, liabilities below</li>
+        <li>Retirement projection with a historical-range band, not a fake line</li>
+        <li>Couples sync over your home Wi-Fi, encrypted device-to-device</li>
+        <li>Mark accounts private — your partner sees totals, not your transactions</li>
+        <li>Card rewards optimizer across 20 popular cards</li>
+        <li>Spending priorities (Love It / It's Fine / Could Cut Back)</li>
+        <li>Ctrl+K search across everything</li>
+        <li>Goals, debt payoff, mortgage simulator</li>
+        <li>Auto-categorization that learns from your corrections</li>
+      </ul>
     </div>
   </section>
 
   <!-- ── Privacy ─────────────────────────────────────────────────── -->
   <section id="privacy" class="band band-accent">
     <div class="container narrow">
-      <h2>The privacy promise, in plain words</h2>
-      <ul class="promise">
-        <li><strong>Stored locally.</strong> Your data lives in one file on your computer — full stop. Nothing is uploaded, mirrored, or cached on our servers. We have no servers that touch your finances.</li>
-        <li><strong>Safe with encryption.</strong> Backups and shared files are protected with AES-256-GCM, the same encryption standard banks and governments use. Your data is unreadable to anyone without your password.</li>
-        <li><strong>Share on your own network.</strong> Sync with your partner or family over your home Wi-Fi — end-to-end encrypted, device-to-device. Your data never leaves the network you control.</li>
-        <li><strong>No bank credentials.</strong> You never type a bank password into SpendWellFi. Ever.</li>
-        <li><strong>No telemetry.</strong> The app makes no network calls with your data. No analytics, no crash reporters phoning home, no "anonymous usage statistics."</li>
-        <li><strong>No subscription hostage.</strong> One-time purchase. If we vanish tomorrow, your app and your data keep working.</li>
-      </ul>
+      <h2>Three things I owe you in writing</h2>
+      <div class="promise-row">
+        <div class="promise-item">
+          <div class="promise-num">01</div>
+          <h3>It stays on your computer.</h3>
+          <p>One database file in your Documents folder. I don't run servers that hold your finances. There's nothing for anyone to breach because there's nothing to breach.</p>
+        </div>
+        <div class="promise-item">
+          <div class="promise-num">02</div>
+          <h3>It's encrypted properly.</h3>
+          <p>Backups and sync files use AES-256-GCM with Argon2id key derivation. Same standards governments use for classified data. Without your password, the contents are noise.</p>
+        </div>
+        <div class="promise-item">
+          <div class="promise-num">03</div>
+          <h3>Your household, your network.</h3>
+          <p>Optional sync with your partner or family runs across your own Wi-Fi, end-to-end encrypted, device-to-device. No cloud middleman. Nothing routed through me.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- ── Pricing ─────────────────────────────────────────────────── -->
   <section id="pricing" class="section">
     <div class="container">
-      <h2 class="section-title">One price. Yours forever.</h2>
+      <h2 class="section-title">One price. Then it's yours.</h2>
       <div class="price-card">
         <div class="price-amount">$49</div>
-        <div class="price-sub">one-time purchase — not a subscription</div>
+        <div class="price-sub">one purchase, not a subscription</div>
         <ul>
-          <li>Windows &amp; macOS</li>
-          <li>All features included — nothing gated</li>
-          <li>Free updates for version 1</li>
-          <li>Use on your own computers, including your partner's</li>
-          <li>14-day money-back guarantee</li>
+          <li>Works on Windows and macOS</li>
+          <li>All features. None gated.</li>
+          <li>Free updates through version 1</li>
+          <li>Install on your household's computers</li>
+          <li>14 days to ask for a refund, no reason needed</li>
         </ul>
-        <!-- STRIPE: replace href with your Stripe Payment Link (see README) -->
+        <!-- STRIPE: replace href with your Stripe Payment Link -->
         <a class="btn btn-primary btn-big" href="REPLACE_WITH_STRIPE_PAYMENT_LINK">
           Buy SpendWellFi — $49
         </a>
-        <p class="price-note">Secure checkout by Stripe. Card details never touch our site.</p>
+        <p class="price-note">Checkout by Stripe. Your card details never touch this site.</p>
       </div>
     </div>
   </section>
@@ -148,37 +182,46 @@
   <!-- ── FAQ ─────────────────────────────────────────────────────── -->
   <section id="faq" class="section section-alt">
     <div class="container narrow">
-      <h2 class="section-title">Questions, answered honestly</h2>
+      <h2 class="section-title">What people ask before buying</h2>
 
       <details>
-        <summary>How does it get my transactions without connecting to my bank?</summary>
-        <p>You download statements (PDF or CSV) from your bank's website — the same files you can already access — and drop them into SpendWellFi. The app parses them locally. It's one extra step compared to bank-linking apps, and it's the step that means nobody else ever holds your data.</p>
+        <summary>How do my transactions get in without a bank login?</summary>
+        <p>You sign in to your bank's website like normal and download a statement (PDF or CSV). Drop it into SpendWellFi. The parsing happens on your computer. It's the one extra step that means nobody else holds your data — and most people forget it's an extra step within a week.</p>
       </details>
 
       <details>
-        <summary>Which banks are supported?</summary>
-        <p>PDF statements from Chase (checking, business, credit cards), PNC (checking, credit cards), Bank of America, Wells Fargo, American Express, Discover, and Betterment, plus CSV imports from dozens more. Unrecognized formats fall back to a generic parser, and we add banks continually — if yours doesn't work, send us a redacted sample and we'll usually support it within a release.</p>
+        <summary>Will it work with my bank?</summary>
+        <p>PDFs from Chase (personal, business, credit cards), PNC checking and credit cards, Bank of America, Wells Fargo, American Express, Discover, and Betterment are all directly supported. CSV imports cover dozens more. Unknown formats fall through to a generic parser. If your bank doesn't work, send a redacted sample to <a href="mailto:support@spendwellfi.com">support@spendwellfi.com</a> and there's a good chance it'll be supported in the next release.</p>
       </details>
 
       <details>
-        <summary>What happens to my data if I stop using the app?</summary>
-        <p>It's a SQLite database file in your Documents folder. It's yours — export to CSV/Excel anytime, or open the file with any SQLite tool. No lock-in is possible because we never had your data to begin with.</p>
+        <summary>What if SpendWellFi goes away someday?</summary>
+        <p>Your database is a plain SQLite file in your Documents folder. The app keeps working without me. You can open the file with any SQLite tool, export to CSV or Excel anytime, and your existing copy of the app keeps running because nothing about it phones home. This is the part subscription apps can't promise.</p>
       </details>
 
       <details>
-        <summary>Is it really one-time? What about updates?</summary>
-        <p>Yes — $49 once, and all version 1 updates are free. If we someday ship a major version 2 with substantial new features, upgrading will be optional and discounted; version 1 will keep working regardless.</p>
+        <summary>Really just $49 forever?</summary>
+        <p>For version 1, yes. Bug fixes and new features released under v1 are free. If a major v2 ever ships, it'll be an optional upgrade at a discount — your v1 stays working regardless.</p>
       </details>
 
       <details>
-        <summary>Windows says "unrecognized app" when installing — is it safe?</summary>
-        <p>Our installers are code-signed by Sherman Solutions LLC. Brand-new releases can still show Windows SmartScreen's caution screen until Microsoft's reputation system catches up — click "More info → Run anyway." The download from this site is always the authentic build.</p>
+        <summary>Windows is warning me about the installer.</summary>
+        <p>Windows SmartScreen sometimes shows a warning the first few times a newly signed installer is downloaded. The installer is signed by Sherman Solutions LLC; click "More info" then "Run anyway." This warning disappears as Microsoft's reputation system catches up with each release.</p>
       </details>
 
       <details>
-        <summary>What's the refund policy?</summary>
-        <p>14 days, no questions asked. Email support with your order number and we refund through Stripe.</p>
+        <summary>How do refunds work?</summary>
+        <p>Email <a href="mailto:support@spendwellfi.com">support@spendwellfi.com</a> within 14 days with your Stripe order number. Refunded to your card, no questions. (I'd rather you weren't using something that doesn't fit.)</p>
       </details>
+    </div>
+  </section>
+
+  <!-- ── Final buy band ──────────────────────────────────────────── -->
+  <section class="final-buy">
+    <div class="container">
+      <h2>Stop renting your finances.</h2>
+      <p>Own your data, own the app, move on with your life.</p>
+      <a class="btn btn-primary btn-big" href="#pricing">Get SpendWellFi — $49</a>
     </div>
   </section>
 
@@ -187,15 +230,41 @@
     <div class="container footer-inner">
       <div>
         <div class="brand"><span class="brand-mark">↗</span> SpendWellFi</div>
-        <p>© 2026 Sherman Solutions LLC. All rights reserved.</p>
+        <p>© 2026 Sherman Solutions LLC · Built in Indiana.</p>
       </div>
       <div class="footer-links">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms of Sale</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
         <a href="mailto:support@spendwellfi.com">support@spendwellfi.com</a>
       </div>
     </div>
   </footer>
+
+  <!-- ── Floating buy button (visible after first scroll) ────────── -->
+  <a href="#pricing" class="float-buy" id="floatBuy" aria-label="Buy SpendWellFi for $49">
+    Buy SpendWellFi · $49
+  </a>
+  <script>
+    (function () {
+      var btn = document.getElementById('floatBuy');
+      var hero = document.querySelector('.hero');
+      var pricing = document.getElementById('pricing');
+      function check() {
+        if (!hero || !pricing) return;
+        var heroBottom = hero.getBoundingClientRect().bottom;
+        var pricingTop = pricing.getBoundingClientRect().top;
+        // Show after the hero scrolls off and before the pricing card is in view
+        if (heroBottom < 0 && pricingTop > 200) {
+          btn.classList.add('show');
+        } else {
+          btn.classList.remove('show');
+        }
+      }
+      window.addEventListener('scroll', check, { passive: true });
+      window.addEventListener('resize', check);
+      check();
+    })();
+  </script>
 
 </body>
 </html>
