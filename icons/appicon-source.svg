@@ -1,4 +1,4 @@
-<!-- App icon source: house+vault-dial, 1024x1024.
+<!-- App icon source: house+money-vault, 1024x1024.
      Export to PNG and run `cargo tauri icon` from src-tauri/. -->
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -10,11 +10,10 @@
   <rect width="1024" height="1024" rx="224" fill="url(#bg)" />
   <rect x="6" y="6" width="1012" height="1012" rx="220"
         fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
-  <!-- House -->
   <path fill="#ffffff" d="M 512 168 L 848 440 L 848 880 L 176 880 L 176 440 Z" />
-  <!-- Vault dial: concentric circles + tick -->
   <circle cx="512" cy="656" r="176" fill="#7BC5A0" />
-  <circle cx="512" cy="656" r="80" fill="#ffffff" />
-  <circle cx="512" cy="656" r="26" fill="#2D5C42" />
-  <line x1="512" y1="656" x2="512" y2="600" stroke="#2D5C42" stroke-width="26" stroke-linecap="round" />
+  <text x="512" y="752"
+        font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+        font-size="256" font-weight="800"
+        text-anchor="middle" fill="#ffffff">$</text>
 </svg>

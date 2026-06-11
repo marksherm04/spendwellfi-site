@@ -1,11 +1,11 @@
-<!-- SpendWellFi icon mark: a house with a vault dial inside.
-     The house = your home. The mint combination-lock dial = your money,
-     safe and local. Together: your money, kept where it belongs. -->
+<!-- SpendWellFi icon mark: a house with a money vault inside.
+     House = your home. Mint vault with $ = your money, safe and local. -->
 <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SpendWellFi">
   <rect width="64" height="64" rx="14" fill="#2D5C42" />
   <path fill="#ffffff" d="M 32 9 L 53 26 L 53 55 L 11 55 L 11 26 Z" />
   <circle cx="32" cy="41" r="11" fill="#7BC5A0" />
-  <circle cx="32" cy="41" r="5" fill="#ffffff" />
-  <circle cx="32" cy="41" r="1.6" fill="#2D5C42" />
-  <line x1="32" y1="41" x2="32" y2="37.5" stroke="#2D5C42" stroke-width="1.6" stroke-linecap="round" />
+  <text x="32" y="47"
+        font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+        font-size="16" font-weight="800"
+        text-anchor="middle" fill="#ffffff">$</text>
 </svg>
