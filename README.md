@@ -10,7 +10,7 @@ Static site — no build step, no dependencies. Four pages:
 
 ### 1. Create the Stripe Payment Link
 1. Stripe Dashboard → **Payment Links** → **+ New**.
-2. Add a product: "SpendWellFi" · one-time · **$49.00** (or your price).
+2. Add a product: "SpendWellFi" · one-time · **$69.00** (or your price).
 3. Under **After payment** → "Don't show confirmation page" →
    redirect to `https://spendwellfi.com/download.html`.
 4. Recommended toggles: collect email (default), allow promotion codes
@@ -34,7 +34,7 @@ Installers come from the app repo: `src-tauri/target/release/bundle/`
 (NSIS `.exe` for Windows; build the `.dmg` on a Mac with `npm run tauri build`).
 
 ### 3. Update prices/copy
-Search `index.html` for `$49` if you choose a different price, and make
+Search `index.html` for `$69` if you choose a different price, and make
 sure the price in Stripe matches the page.
 
 ## Deploying
